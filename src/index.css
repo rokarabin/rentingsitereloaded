@@ -2,3 +2,41 @@
 @tailwind components;
 @tailwind utilities;
 
+
+.ban img{
+    height: 50%;
+}
+
+.divcaro{
+    height: 500px;
+    width: 100%;
+}
+
+.carousel img {
+    width: 80%; /* Adjust as needed */
+    height: 500px; /* Adjust as needed */
+    object-fit: fill;
+  }
+
+  .carousel{
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .caruselitems{
+    width: 90%;
+    justify-content: center;
+    margin: auto; 
+  }
+  
+  /*
+  For login css
+  */
+
+.emaildiv{
+    padding-bottom: 15px;
+}
+
+.emaildiv input{
+    border: 2px black solid;
+}

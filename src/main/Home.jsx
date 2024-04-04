@@ -1,13 +1,15 @@
 import React from 'react'
 import Carousell from '../component/Carousel'
+import '../main'
 
 const Home = () => {
   return (
     <>
-    <div className="container">
+
+
              <Carousell/> 
 
-    </div>
+
     </>
   )
 }
